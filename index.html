@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Presentation Game</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h2 style="color: blue;">Game</h2>
+				<img src="./image/header.png" alt="" width="600px">
+			</section>
+			<section>
+				<p style="color: red;">Цели:</p>
+				<img src="./image/2.jpg" alt="">
+			</section>
+			<section>
+				<section>
+					<p style="color: blue;">1. Создание игры, которая соответствует требованиям функциональности поставленной задачи:</p>
+					<ul>
+						<li>Экран дуэли</li>
+						<li>Модальный диалог выбора заклинания</li>
+						<li>Экран задачи</li>
+						<li>Экран таблицы рекордов</li>
+					</ul>
+				</section>
+				<section>
+					<p>Экран дуэли</p>
+					<img src="./image/screen4.jpg" alt="">
+				</section>
+				<section>
+					<p>Модальный диалог выбора заклинания</p>
+					<img src="./image/screen2.jpg" alt="">
+				</section>
+				<section>
+					<p>Экран задачи</p>
+					<img src="./image/screen3.jpg" alt="">
+				</section>
+				<section>
+					<p>Экран таблицы рекордов</p>
+					<img src="./image/screen5.jpg" alt="">
+				</section>
+			</section>
+			<section>
+				<p style="color: blue;">2. Реализация поставленной задачи с учетом указанной целевой аудитории (дети 6-8 лет):</p>
+				<ul>
+					<li>Задачи в игре должны соответствовать уровню знаний детей</li>
+					<li>Простой и доступный интерфейс</li>
+					<li>Актуальный дизайн для данной возрастной группы детей</li>
+				</ul>
+			</section>
+			<section>
+				<section>
+					<p style="color: blue;">3. Выполнение технических требований:</p>
+					<ul>
+						<li>Поддержка Сhrome последней версии</li>
+						<li>Язык - JS/ES2015+ или TypeScript</li>
+						<li>Использование любых игровых движков/фреймворков - запрещено</li>
+						<li>Финальная версия игры должна быть доступна по ссылке</li>
+						<li>Landing page.Должна содержать следующую информацию:</li>
+					</ul>
+				</section>
+				<section>
+					<p>Название игры, ссылку для запуска игры</p>
+					<img src="./image/screen6.jpg" alt="">
+				</section>
+				<section>
+					<p>Скриншоты геймплея</p>
+					<img src="./image/screen7.jpg" alt="">
+				</section>
+				<section>
+					<p>Информацию об авторе</p>
+					<img src="./image/screen8.jpg" alt="">
+				</section>
+			</section>
+			<section>
+				<p style="color: blue;">4. Требуемая структура проекта:</p>
+				<img src="./image/str1.jpg" alt="">
+			</section>
+			<section>
+				<p>Демонстрация игры</p>
+				<a href="https://olgaluk.github.io/game/" style="width: 200px;"><img src="./image/header.png" alt=""></a>
+			</section>
+			<section>
+				<section>
+					<p style="color: blue;">Полезные особенности:</p>
+					<img src="./image/commitstrip.png" alt="">
+				</section>
+				<section>
+					<p>Масштабируемость добавления монстров</p>
+					<img src="./image/srt2.jpg" alt="">
+				</section>
+				<section>
+					<p>Масштабируемость добавления заклинаний</p>
+					<img src="./image/str4.jpg" alt="">
+				</section>
+				<section>
+					<img src="./image/srt3.jpg" alt="">
+				</section>
+				<section>
+					<p>Масштабируемость добавления задач</p>
+					<img src="./image/str5.jpg" alt="">
+				</section>
+				<section>
+					<img src="./image/str6.jpg" alt="">
+				</section>
+				<section>
+					<img src="./image/str7.jpg" alt="">
+				</section>
+				<section>
+					<p>Возможность играть используя только клавиатуру</p>
+				</section>
+				<section>
+					<p>Возможность перейти на Landing page на любом этапе игры</p>
+				</section>
+			</section>
+			<section>
+				<img src="./image/total.png" alt="">
+			</section>
+			<section>
+				<h3>THE END</h1>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			]
+		});
+	</script>
+</body>
+
+</html>
